@@ -78,7 +78,7 @@ mutation UpdateCategory($updateCategoryId: ID!, $input: UpdateCategoryInput!) {
 
 👤 **Zuhaib**
 
--  Website: zuhaib.live
+-  Website: [zuhaib.live](https://zuhaib.live)
 -  Twitter: [@shahzuhaib\_](https://twitter.com/shahzuhaib_)
 -  Github: [@powrhouseofthecell](https://github.com/powrhouseofthecell)
 -  LinkedIn: [@zuhaibnazir](https://linkedin.com/in/zuhaibnazir)
