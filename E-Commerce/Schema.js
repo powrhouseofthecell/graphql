@@ -30,6 +30,7 @@ const typeDefs = gql`
       comment: String!
       rating: Int!
    }
+   # input
 `;
 
 export default typeDefs;
