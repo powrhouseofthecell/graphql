@@ -92,7 +92,7 @@ const products = [
    },
 ];
 
-const categories = [
+let categories = [
    {
       id: 'c01b1ff4-f894-4ef2-b27a-22aacc2fca70',
       name: 'Kitchen',
@@ -287,4 +287,8 @@ const reviews = [
    },
 ];
 
-export { products, categories, reviews };
+exports.db = {
+   products,
+   categories,
+   reviews,
+};

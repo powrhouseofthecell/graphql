@@ -26,6 +26,54 @@ npm install
 npm start
 ```
 
+### Some example queries.
+
+```
+# 1. Products query for name and price.
+
+query Query {
+   products {
+      name
+      price
+   }
+}
+```
+
+```
+# 2. Delete product mutation.
+
+mutation Mutation($deleteProductId: ID!) {
+  deleteProduct(id: $deleteProductId)
+}
+```
+
+```
+# 3. Add product mutation.
+
+mutation AddProduct {
+   addProduct(input: {
+      name: "An amazing product name",
+      description: "This is an amazing product",
+      quantity: 1,
+      image: "image.com",
+      price: 123.2,
+      onSale: true,
+      categoryId: "d914aec0-25b2-4103-9ed8-225d39018d1d"}) {
+         name
+   }
+}
+```
+
+```
+# 4. Update category mutation.
+
+mutation UpdateCategory($updateCategoryId: ID!, $input: UpdateCategoryInput!) {
+  updateCategory(id: $updateCategoryId, input: $input) {
+    name
+  }
+}
+```
+
 ## Author
 
 👤 **Zuhaib**

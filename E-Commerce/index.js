@@ -1,24 +1,24 @@
-import { ApolloServer } from 'apollo-server';
-import Query from './resolvers/Query.js';
-import Product from './resolvers/Product.js';
-import Category from './resolvers/Category.js';
-import typeDefs from './Schema.js';
-import { products, categories, reviews } from './db.js';
+const { ApolloServer } = require('apollo-server');
+const { typeDefs } = require('./schema');
+const { Query } = require('./resolvers/Query');
+const { Mutation } = require('./resolvers/Mutation');
+const { Category } = require('./resolvers/Category');
+const { Product } = require('./resolvers/Product');
+const { db } = require('./db');
 
 const server = new ApolloServer({
    typeDefs,
    resolvers: {
       Query,
-      Product,
+      Mutation,
       Category,
+      Product,
    },
    context: {
-      products,
-      categories,
-      reviews,
+      db,
    },
 });
 
 server.listen().then(({ url }) => {
-   console.log('Server running on port ' + url);
+   console.log('Server is up at ' + url);
 });
