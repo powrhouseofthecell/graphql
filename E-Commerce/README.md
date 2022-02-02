@@ -1,16 +1,13 @@
 <h1 align="center">GraphQL | Apollo-Sever  <img alt="GraphQL" src="https://img.shields.io/badge/Apollo%20GraphQL-311C87?&style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white" /> </h1>
 
-<p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/powrhouseofthecell/GraphQL#readme" target="_blank">
+  <a href="https://github.com/powrhouseofthecell/GraphQL/tree/main/E-Commerce#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/powrhouseofthecell/GraphQL/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a> <br>
+   <br>
  An E-Commerce API made with GraphQL and  Apollo-Server
 
-### 🏠 [Homepage](https://github.com/powrhouseofthecell/GraphQL#readme)
+### 🏠 [Homepage](https://github.com/powrhouseofthecell/GraphQL/tree/main/E-Commerce#readme)
 
 ## Install
 
