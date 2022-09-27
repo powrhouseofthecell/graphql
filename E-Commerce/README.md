@@ -82,7 +82,10 @@ mutation UpdateCategory($updateCategoryId: ID!, $input: UpdateCategoryInput!) {
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/powrhouseofthecell/GraphQL/issues). You can also take a look at the [contributing guide](https://github.com/powrhouseofthecell/GraphQL/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check
+[issues page](https://github.com/powrhouseofthecell/GraphQL/issues). You can
+also take a look at the
+[contributing guide](https://github.com/powrhouseofthecell/GraphQL/blob/master/CONTRIBUTING.md).
 
 ## Show your support
 
