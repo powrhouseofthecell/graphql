@@ -9,7 +9,7 @@ The project will be concise and carry almost everything that I have learned.
 
 ## Author
 
--  Website: [zuhaib.live](https://zuhaib.live)
+-  Website: [zuhaib.me](https://zuhaib.me)
 -  Twitter: [@shahzuhaib\_](https://twitter.com/shahzuhaib_)
 -  Github: [@powrhouseofthecell](https://github.com/powrhouseofthecell)
 -  LinkedIn: [@zuhaibnazir](https://linkedin.com/in/zuhaibnazir)
